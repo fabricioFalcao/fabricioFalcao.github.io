@@ -1,0 +1,38 @@
+body {
+    padding: 5% 10%;
+}
+
+/* Defina fontes diferentes para o seu nome e para a descrição que você criou */
+h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+#description {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* Defina uma cor base de background do seu Portfólio Web */
+body{background-color: #DEF0F7}
+
+/* Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora */
+
+strong{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 1.1em; color: #F97D10;}
+
+img {
+    float: left;
+    padding: 10px;
+    background-color: #F97D10;
+}
+
+.eu {
+    height: 250px;
+}
+
+.descricao {
+    text-align: justify;
+    margin-left: 360px;
+    position: relative;
+    top: 20px;
+}
+
+.minhas-habilidades li:nth-last-of-type(odd) { 
+  font-style: oblique;
+}
